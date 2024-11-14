@@ -1,5 +1,12 @@
 ### GO TUTORIAL
 
+`package main
+import ('fmt')
+
+func main() {
+    fmt.Println("Hello World!")
+}`
+
 # Go Syntax
 A Go file consists of:
 - Package declaration
