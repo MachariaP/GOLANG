@@ -11,6 +11,15 @@ import (
 )
 
 func main() {
+	// 32-bit integer test
 	var integer32 int = 2147483647
-	fmt.Println(integer32)
+	fmt.Println("32-bit integer: ", integer32)
+
+	// 64-bit integer test
+	var integer64 int = 9223372036854775807
+	fmt.Println("64-bit integer: ", integer64)
+
+	// Test with a value that exceeds the 32-bit integer limit
+	var integerOverflow int64 = 2147483648
+	fmt.Println("64-bit integer (overflow test): ", integerOverflow)
 }
