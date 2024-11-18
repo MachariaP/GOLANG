@@ -16,3 +16,8 @@ func main() {
 	fmt.Println("c:", c)
 	fmt.Println("d:", d)
 }
+
+/**
+The && operator returns true when both a and b are true.
+The || operator returns true when either a or b is true.
+*/
