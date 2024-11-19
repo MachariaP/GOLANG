@@ -1,3 +1,4 @@
+// Creating a new function in Golang that implements the interface for creating functions
 package main
 
 import "fmt"
