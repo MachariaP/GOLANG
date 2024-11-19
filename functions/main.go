@@ -18,4 +18,8 @@ func main() {
 	sayGreetings("John")
 	getResults("John")
 	sayBye("John")
+
+	sayGreetings("Anne")
+	getResults("Anne")
+	sayBye("Anne")
 }
