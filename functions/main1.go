@@ -35,6 +35,7 @@ func main() {
 	a2 := circleArea(15.0)
 
 	fmt.Println(a1, a2)
+	fmt.Printf("circle 1 is %0.3f and circle 2 is %0.3f\n", a1, a2)
 
 	//cycleNames([]string{"John", "Anne", "Jack"}, sayGreetings)
 	//cycleNames([]string{"John", "Anne", "Jack"}, sayGoodbye)
