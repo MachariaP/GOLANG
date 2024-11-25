@@ -1,0 +1,25 @@
+### GO TUTORIAL
+
+`package main
+import ('fmt')
+
+func main() {
+    fmt.Println("Hello World!")
+}`
+
+# Go Syntax
+A Go file consists of:
+- Package declaration
+- Import packages
+- Functions
+- Statements and expressions
+
+# Go Statements
+`fmt.Println("Hello World!")` is a statement.
+Statements are separated by ending a line (hitting the Enter key)
+or by a semicolon `;`.
+
+# Go Compact Code
+It is not recommended because it makes the code more difficult to read.
+Example:
+`package main; import ("fmt"); func main() {fmt.Println("Hello World!");}`
