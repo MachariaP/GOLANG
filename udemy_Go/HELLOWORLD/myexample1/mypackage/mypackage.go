@@ -27,6 +27,7 @@ func Greet() {
 	fmt.Println(greeting)
 }
 
+// Add performs addation and adds some quirky commentary
 func Add(a, b int) {
 	sum := a + b
 	fmt.Printf("Alright! You just added %d and %d and the result is... %d!\n", a, b, sum)
@@ -35,4 +36,18 @@ func Add(a, b int) {
 	} else {
 		fmt.Println("Odd number alert! Odd numbers are cool too!")
 	}
+}
+
+// GetMessage returns a fun message that also gives a little joke
+func GetMessage() string {
+	// List of jokes
+	jokes := []string{
+		"Why don't skeletons fight each other? They don't have the guts!",
+		"What do you call fake spaghetti? An impasta!",
+		"Why was the math book sad? Because it had too many problems!",
+	}
+	// Initialize the random number generator
+	rand.Seed(time.Now().UnixNano())
+	joke := jokes[rand.Intn(len(jokes))]
+	return joke
 }
